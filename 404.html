@@ -5,10 +5,10 @@
 <h1 id="h">Opening Steam...</h1>
 <a id="go" href="#">Click here if nothing happens</a>
 <script>
-  var id = (location.search.match(/\d+/) || [])[0];
+  var id = (location.pathname.match(/(\d+)\/?$/) || [])[1];
   if (!id) { document.getElementById('h').textContent = 'No app ID given'; }
   else {
-    var id = (location.pathname.match(/(\d+)\/?$/) || [])[1];
+    var url = 'steam://launch/' + id;
     document.getElementById('go').href = url;
     location.href = url;
   }
