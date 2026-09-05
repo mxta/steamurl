@@ -1,7 +1,7 @@
 Source code for https://steam.forfish.es, a steam:// redirector
 
 # How to use
-Get the appid of the game: https://store.steampowered.com/app/<appid>/<title>/ -> https://steam.forfish.es/<appid> -> steam://launch/<appid> -> Game is launched
+Get the appid of the game: https://store.steampowered.com/app/APPID/TITLE/ -> https://steam.forfish.es/APPID -> steam://launch/APPID -> Game is launched
 # Example:
 Garry's Mod
 The store page for GMod is: https://store.steampowered.com/app/4000/Garrys_Mod/ 
